@@ -85,7 +85,7 @@
 
         #nav-one {
             height: 32px;
-            border: 2px solid gree;
+            /* border: 2px solid green; */
             background-color: black;
             color: white;
             text-align: center;
@@ -113,6 +113,70 @@
 
         #nav-two {
             height: 32px;
+            border: 1px solid red;
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 16px;
+            padding-top: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+        }
+
+        /* #nav-two>div {
+            width: 40%; */
+            /* border: 2px solid red; */
+        /* } */
+        .menu-1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 15px;
+             
+        }
+        .menu-1>div {
+            margin: 0 10px;}
+        #nav-two>div:nth-child(1)>:nth-child(2){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 15px;
+            border: 2px solid rgb(30, 255, 0);
+        }
+
+        #nav-two-one-one {
+            padding-bottom: -20px;
+            width: 80px;
+            height: 20px;
+            border: 1px solid black;
+            border: 2px solid blue;
+            
+        }
+        .image { height: 32px;
+            /* border: 5px solid red; */
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 16px;
+            padding-top: 5px;
+            display: flex;
+            justify-content: space-around;
+          width: 100px;  
+          margin-left: 10px;
+          margin-bottom: 10px;
+        }
+
+
+        .menu-2 {
+            /* display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            border: 5px solid red;
+            margin-left: 20%; */
+            height: 32px;
             border: 1px solid re;
             background-color: white;
             color: black;
@@ -121,40 +185,35 @@
             padding-top: 12px;
             display: flex;
             justify-content: space-around;
+            /* margin-left: 15%; */
 
         }
-
-        #nav-two>div {
-            width: 40%;
-            border: 2px solid re;
-        }
-
-        #nav-two>div:nth-child(1) {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+        .menu-2>div {
+            margin: 0 10px;}
+        .logos {
+            /* display: flex;
+            justify-content: space-evenly;
             font-size: 15px;
-
-        }
-
-        #nav-two-one-one {
-            padding-bottom: -10;
-            width: 100px;
-            height: 10x;
-            border: 1px solid blac;
-
-        }
-
-        #nav-two>div:nth-child(2) {
+            margin-left: 0%;
+            width: 10px; */
+            height: 32px;
+            border: 1px solid re;
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 16px;
+            padding-top: 12px;
             display: flex;
-            justify-content: space-between;
-            font-size: 15px;
+            justify-content: space-around;
+            /* margin-left: 20%; */
+
         }
 
         #tab-ad {
             width: 100%;
             height: 400px;
             /* border: 2px solid red; */
+
         }
 
         #tab-ad>div {
@@ -308,12 +367,87 @@
             width: 50%;
             height: 200px;
             background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/na/homepage/subscribe/APPdownload_PC_Red_New.png.thumb.webp);
+            background-size: cover;
+            margin-left: 20px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: 150%;
             padding: 25px;
+        }
+        .main {
+            height: 500px;
+            /* width: 100px; */
+            font-size: 10px;
+            /* border: 7px solid red; */
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            background-color: black;
+            text-align: left;
+            padding-top: 100px;
+        }
+        .block-1 {
+            height: 500px;
+            width: 400px;
+            font-size: 10px;
+            /* border: 3px solid blue; */
+            background-color: black;
+            color: white;
+            margin-left: 50px;
+        }
+         .image-1 {
+            height: 400px;
+            width: 900px;
+            font-size: 10px;
+            /* border: 5px solid green; */
+         }
+        @media screen and (max-width:1025px) {
+            .menu-1 {
+                display: none;
+            }
+            .menu-2 {
+                display: none;
+            }
+            .image {
+                width: 30%;
+            justify-content: center;
+        
+           
+            }
+            .image-1 {
+                display: none;
+            }
+            .tab-ad-img-div{
+                display: none;
+            }
+            .footer-1{
+                flex-wrap: wrap;
+                .picture{
+                    width: 100%;
+                }
+
+            }
 
         }
+        @media screen and (min-width:1025px) {
+          .image-9 {
+            display: none;
+          }
+          .tab-ad-img-div-1 {
+                            display: none;}
+        }
+        @media screen and (max-width:750px) {
+            .mobile-picks {
+                width: 200%;
+                /* overflow: scroll; */
+                
+            }
+            #tab-ad>div {
+                flex-wrap: wrap;
+            }
+        }
+       
+        
 
 
 
@@ -337,29 +471,36 @@
                 <p><i class="fa-solid fa-x"></i></p>
             </div>
             <div id="nav-two">
-                <div>
-                    <div id="nav-two-one-one"><img class="w-h-100"
-                            src="https://img1-327a.kxcdn.com/DataImage.ashx/1000805110" alt="one-plus" /></div>
-                    <div>Phone</div>
-                    <div>TV&Display</div>
-                    <div>Audio&Watch</div>
-                    <div>Tablet</div>
-                    <div>Accessories</div>
-                    <div>Offer</div>
-                </div>
-                <div>
+                  <div><i class="fa-solid fa-bars"></i>
+                  </div>
+                    <div class="image"><img class="w-h-100"
+                            src="https://img1-327a.kxcdn.com/DataImage.ashx/1000805110" alt="one-plus" />
+                    </div>
+                    <div class="menu-1">
+                        <div>Phone</div>
+                        <div>TV&Display</div>
+                        <div>Audio&Watch</div>
+                        <div>Tablet</div>
+                        <div>Accessories</div>
+                        <div>Offer</div>
+                    </div>
+                
+                <div class="menu-2">
                     <div class="w-6"></div>
                     <div>Store</div>
                     <div>OneTopia</div>
-                    <div>onePlus Featuring</div>
+                    <div>onePlus&Featuring</div>
                     <div>Community</div>
                     <div>Support</div>
+                </div>
+                    <div class="logos">
                     <div><i class="fa-solid fa-magnifying-glass"></i></div>
                     <div><i class="fa-solid fa-cart-shopping"></i></div>
                     <div><i class="fa-regular fa-user"></i></div>
                 </div>
+                </div>
             </div>
-        </div>
+        
         <div id="body">
             <div id="slider"><img class="w-h-100"
                     src="https://www.oneplus.in/content/dam/oasis/page/2023/in/diwali/10081/diwali_lunch-tablet.jpg.thumb.webp"
@@ -396,6 +537,11 @@
                     <div class="tab-ad-info-sec">
                         <div>
                             <p>OnePlus Pad Go</p>
+                        </div>
+                        <div class="tab-ad-img-div-1">
+                            <img class="w-h-100"
+                                src="https://www.oneplus.in/content/dam/oasis/page/2023/in/medium-product-card/Bluey-%E4%B8%AD%E4%BA%A7%E5%93%81%E5%8D%A1-pc-10.6.png.thumb.webp"
+                                alt="Tab" />
                         </div>
                         <div>
                             <p style="margin-top: 20%;">Pre-order is live! (8+128 GB variant only).
@@ -490,11 +636,49 @@
                 <div><a href="#" class="button">From ₹19,999</a href></div>
             </div>
         </div>
-
-
+        <div style="background-color: black;">
+        <div class="main" style="margin-top: 200px;">
+            <div class="block-1">
+                <div style="font-size: 20px;">One For All</div>
+                <div style="font-size: 40px; margin-top: 20px;" >OnePlus<br/> Ensemble</div>
+                <div class="image-9"> <img class="w-h-100" style="width: 400px;" src="https://www.oneplus.in/content/dam/oasis/page/2023/in/home/oneplus-ecosystem/largecard.jpg.thumb.webp" alt="mobile"></div>
+                <div style="font-size: 15px; margin-top: 100px;">Seamlessly connect all the OnePlus products to one another </div><br/> <span style="font-size: 15px;">for a smart and smooth experience.</span>
+                <div style="font-size: 25px; margin-top: 40px;">At ₹109 997* Incl. Bank Discount</div>
+               <button style="background-color: white;color: black; font-size: 30px; margin-top: 30px;">Buy Now</button>    
+                <div style="font-size: 20px; margin-top: 30px;">OnePlus Featuring</div>
+            </div>
+            <div class="image-1"> <img class="w-h-100" style="width: 800px;" src="https://www.oneplus.in/content/dam/oasis/page/2023/in/home/oneplus-ecosystem/largecard.jpg.thumb.webp" alt="mobile"></div>
+        
+        </div>
+        <div class="main" style="margin-top: 200px;">
+            <div class="image-1"> <img class="w-h-100" style="width: 800px;" src="https://www.oneplus.in/content/dam/oasis/page/2023/home/keyboard/20230406-keyboard-pc.jpg.thumb.webp" alt="mobile"></div>
+            <div class="block-1">
+                <div style="font-size: 20px;">Rewrite the Rules</div>
+                <div style="font-size: 40px; margin-top: 20px;" >Keyboard 81 Pro
+                </div>
+                <div style="font-size: 18px; margin-top: 100px;">Power by OnePlus Design | Co-Created Switches | The First Bouncy but Durable Keycap</div>
+                <!-- <div style="font-size: 25px; margin-top: 40px;">At ₹109 997* Incl. Bank Discount</div> -->
+               <button style="background-color: black;color: white; font-size: 18px; margin-top: 100px;">Buy Now</button>    
+                <!-- <div style="font-size: 20px; margin-top: 30px;">OnePlus Featuring</div> -->
+            </div>
+        </div>
+        <div class="main" style="margin-top: 200px;">
+            <div class="block-1">
+                <div style="font-size: 20px;">Ready Before You Were</div>
+                <div class="image-9"> <img class="w-h-100" style="width: 400px;" src="https://www.oneplus.in/content/dam/oasis/page/2023/in/oneplus-5g-is-ready/5G-%E9%A6%96%E9%A1%B5-%E5%A4%A7%E5%8D%A1%E7%89%87-pc.jpg.thumb.webp" alt="mobile" alt="mobile"></div>
+                <!-- <div style="font-size: 15px; margin-top: 100px;">Ready Before You Were</div><br/> <span style="font-size: 15px;">for a smart and smooth experience.</span> -->
+                <div style="font-size: 50px; margin-top: 30px;">Built for 5G</div>
+                  
+                <div style="font-size: 20px; margin-top: 250px;">#OnePlus5GExperience</div>
+                <div style="font-size: 20px;margin-top: 50px;">Learn More</div>
+            </div>
+            <div class="image-3"> <img class="w-h-100" style="width: 800px;" src="https://www.oneplus.in/content/dam/oasis/page/2023/in/oneplus-5g-is-ready/5G-%E9%A6%96%E9%A1%B5-%E5%A4%A7%E5%8D%A1%E7%89%87-pc.jpg.thumb.webp" alt="mobile"></div>
+        
+        </div>
     </div>
-    
-    <footer style="width: 100%; position: relative;top: 200px; display: flex;background-color: black;">
+   
+
+    <footer class="footer-1" style="width: 100%; position: relative;top: 200px; display: flex;background-color: black; margin-bottom: 300px;height: 500px;">
         <div style="height: 300px;" class="picture">
             <h2 style="font-size: 30px; font-weight: 500px;">Shop With <br />Exclusive Benefits</h2>
             <p style="margin-top: 20px;">Download OnePlus store app on Google Play</p>
@@ -503,12 +687,13 @@
                 Google Play</a>
         </div>
         <div class="picture"
-            style="margin-left: 20px;height: 300px; background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/na/homepage/subscribe/Subscribe-PC-2card.jpg);">
+            style="margin-left: 20px;height: 300px; background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/na/homepage/subscribe/Subscribe-PC-2card.jpg); background-size: cover;margin-left: 20px;">
             <h2 style="font-size: 30px; font-weight: 500px;">Always be the first<br /> to know.</h2>
             <p style="margin-top: 20px;">Sign up for our newsletter!</p>
             <p style="margin-top: 30px;">Subscribe to receive news, promotions and recommendations about OnePlus
-                products and services from OnePlus, its agencies and partners.</p> <a href="" style="color: white;padding: 10px 25px;border: 1px solid white;margin-top: 60px;display: inline-block;text-decoration: none;">
-                    Subscribe Now</a>
+                products and services from OnePlus, its agencies and partners.</p> <a href=""
+                style="color: white;padding: 10px 25px;border: 1px solid white;margin-top: 60px;display: inline-block;text-decoration: none;">
+                Subscribe Now</a>
         </div>
     </footer>
 
