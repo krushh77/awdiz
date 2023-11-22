@@ -1,0 +1,309 @@
+
+#screen{ 
+    width: 100%;
+    height: 6000px;
+    /* border:  5px solid green; */
+   
+}
+#navbar{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(195, 208, 212, 0.479);
+    display: flex;
+    
+    
+}
+#info{
+    width: 100%;
+  display: flex;
+  justify-content: right;
+  /* border: solid red; */
+  
+}
+.info-1{
+    padding-left: 30px;
+}
+
+#image-1{
+    width: 30px;
+    height: 30px;
+    /* border: solid red; */
+    padding-left: 60px;
+}
+.navbar-2{
+    height: 60px;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+    /* text-align: center; */
+}
+#image-2{
+    height: 60px;
+    width: 100px;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    
+}
+.headings{
+    display: flex;
+    font-size: 20px;
+    /* border: solid red; */
+    margin-left: 160px;
+    width: 600px;
+    justify-content: space-around;
+    /* justify-content: center; */
+    margin-top: 15px;
+    
+}
+#search{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 140px;
+    margin-left: 50px;
+    background-color: rgba(195, 208, 212, 0.479);
+    border-radius: 18px;
+    margin-top: 10px;
+    display: flex;
+    font-size: 20px;
+    
+}
+.heart{
+    /* border: 2px solid red; */
+    height: 20px;
+    padding-left: 40px;
+    padding-top: 23px;
+    
+    
+}
+#navbar-3{
+    background-color: rgba(195, 208, 212, 0.479);
+    width: 100%;
+    height: 60px;
+    /* border: solid red; */
+    justify-content: space-evenly;
+}
+#info-2{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    margin-top: 4px;
+}
+#info-3{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 15px;
+    margin-top: 8px;
+    text-decoration: underline;
+
+}
+#image-3{
+    width: 100%;
+    padding-left: 40px;
+}
+#heading{
+    width:100%;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    text-align: center;
+    padding-top: 30px;
+}
+#heading-1{
+    width:100%;
+    font-size: 20px;
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#heading-2{
+    width:100%;
+    
+    text-align: center;
+    padding-bottom:100px ;
+    /* border: 2px solid red; */
+}
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    font-size: 24px;
+    justify-content: center;
+    justify-content: space-around;
+
+    /* border: 2px solid red; */
+}
+.images{
+     width: 100%;
+     
+     display: flex;
+     /* border: 2px solid red; */
+     justify-content: space-evenly;
+}
+.images-11{
+    width:  400px; height: 500px; 
+    /* border: 2px solid red; */
+}
+#information{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 22px;
+    padding-top: 35px;
+    padding-bottom: 120px;
+}
+.image-main{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-evenly;
+}
+.image-5{
+    width: 47%;
+    height: 700px;
+    /* justify-content: space-evenly; */
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_700,c_limit/ce9d486e-ffde-4b22-b3b6-1b84160b68f0/nike-just-do-it.png);
+   /* border: 2px solid red; */
+}
+.image-6{
+    width: 47%;
+    height: 700px;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_700,c_limit/4c003de0-e242-4224-a1b7-9e38c426b361/nike-just-do-it.png);
+    /* border: 2px solid red; */
+}
+.info-4{
+    color: white;
+    /* border: 2px solid red; */
+    font-size: 18px;
+    width: 180px;
+    margin-top: 500px;
+    margin-left: 60px;
+    padding-bottom: 10px;
+
+}
+.info-5{
+    color: white;
+    /* border: 2px solid red; */
+    font-size: 24px;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.new{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+#shoemain{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.shoe-1{
+    width: 30%;
+    height: 500px;
+    background-image:  url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_819,c_limit/e74e6f97-2483-4f31-a78f-784f554a2b68/nike-just-do-it.jpg);
+}
+.shoe-2{
+    width: 30%;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_819,c_limit/1edd0e07-a08a-4b17-8384-0a6584c16fe7/nike-just-do-it.jpg);
+}
+.shoe-3{
+    width: 30%;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_818,c_limit/a13acd4b-3ae8-4243-9303-736c7af9e55a/image.jpg);
+}
+.info-6{
+    /* border: 2px solid red; */
+    width: 270px;
+    color: white;
+    margin-top: 400px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+.Mens{
+display: flex;
+ width: 100%;
+ height: 700px;
+ justify-content: space-evenly;
+ /* border: 2px solid red; */
+}
+.mens-1{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 700px;
+background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_700,c_limit/d757bbd6-821e-4085-b7b3-1260d0632c0f/nike-just-do-it.jpg);
+}
+.mens-2{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 700px;
+background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_700,c_limit/468de987-e4e6-4bda-a652-4d9b0d745d95/nike-just-do-it.png);
+}
+.info-7{
+    width: 270px;
+    color: white;
+    margin-top: 600px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+.latest{
+    font-size: 28px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.latest-1{
+    justify-content: space-around;
+    text-align: center;
+}
+.info-8{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.info-9{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.button-1{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+.footer-1{
+    width: 190px;
+    height: 250px;
+    /* border: 2px solid red; */
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    color: white;
+    
+}
+.img-1{
+background-color: #7e7e7e;
+height: 40px;
+margin-top: 30px;
+width: 40px;
+text-align: center;
+border-radius: 20px;
+margin-left: 300px;
+}
+.img-2{
+    background-color: #7e7e7e;
+height: 40px;
+margin-top: 30px;
+width: 40px;
+text-align: center;
+border-radius: 20px;
+margin-left: 20px;
+}
+
