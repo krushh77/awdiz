@@ -1,0 +1,155 @@
+#image{
+background-image: url(https://scramblerducati.com/wp-content/uploads/2020/11/1100-dark-pro.jpg);
+height: 650px;
+background-size: 1200px;
+width: 1300px;
+justify-content: center;
+
+}
+.info{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 30px;
+font-size: 45px;
+color: white;
+padding-top: 450px;
+text-decoration: underline;
+
+}
+.info-1{
+color: white;
+font-size: 24px;
+margin-left: 24px;
+/* border: 2px solid red; */
+width: 400px;
+padding-top: 20px;
+}
+.info-2{
+    color: white;
+    /* border: 2px solid red; */
+    height: 40px;
+    font-size: 26px;
+    padding-top: 500px;
+    margin-left: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.button{
+    height: 40px;
+    width: 200px;
+    background-color: yellow;
+    color: black;
+    margin-top: 500px;
+    margin-left: 80px;
+
+}
+.info-3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 30px;
+    font-size: 60px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.info-4{
+    width: 500px;
+    /* border: 2px solid red; */
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 22px;
+    color: rgb(150, 148, 148);
+}
+.aa-1{
+    width: 30%;
+ }
+ .bb-1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+ }
+ #info-8{
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+    width: 100%;
+    margin-top: 30px;
+}
+.image-11{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.image-22{
+    width: 400px;
+    height: 300px;
+    justify-content: space-between;
+}
+.info-5{
+    display: flex;
+    justify-content: space-between;
+}
+.info-6{
+    /* border: 2px solid red; */
+    width: 30%;
+    justify-content: space-around;
+    font-size: 22px;
+    color: rgb(161, 157, 157);
+}
+.image-33{
+    width: 1000px;
+    height: 600px;
+}
+.info-9{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 24px;
+justify-content: center;
+text-align: center;
+}
+.button-1{
+    height: 40px;
+    width: 200px;
+    background-color: yellow;
+    color: black;
+    /* margin-top: 500px; */
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.button-2{
+    height: 40px;
+    width: 200px;
+    background-color: yellow;
+    color: black;
+    /* margin-top: 500px; */
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+margin-top: 60px;
+}
+#name{
+    /* display: flex; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.tittel{
+    font-size: 25px;
+    color: rgb(83, 82, 82);
+}
+
+
+.table{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.table-1{
+width: 50%;
+margin-left: 60px;
+font-size: 24px;
+}
+.table-2{
+    width: 50%;
+font-size: 22px;
+color: rgb(94, 91, 91);
+}
