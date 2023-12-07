@@ -1,0 +1,166 @@
+.background{
+    /* border: 2px solid red; */
+ 
+
+}
+.header{
+    /* display: flex; */
+    width: 100%;
+    justify-content: space-evenly;
+    
+    color: black;
+    font-size: 16px;
+    height: 150px;
+    /* border:  2px solid red; */
+    padding-top: 10px;
+    background-image: url(https://shop.ducati.com/media/wysiwyg/W46_D_AND03563_UC579245_1__7.jpg);
+    background-size: 1500px;
+    height: 700px;
+    background-color: white;
+}
+.header-2{
+    background-color: white;
+display: flex;
+width: 90%;
+height: 140px;
+justify-content: space-evenly;
+margin-left: 50px;
+
+}
+.header-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 100%;
+
+}
+.new{
+    color: white;
+    font-size: 44px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.new-2{
+    color: white;
+    font-size: 44px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.button{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.Recommended{
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+    font-size: 30px;
+   /* border: 6px soild blue; */
+   margin-left: 500px;
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+.pics{
+   display: flex;
+   width: 100%;
+ text-align: center;
+  /* border: 3px solid blue; */
+}
+.images{
+    width: 90%;
+    /* border: 2px solid red; */
+    text-align: center;
+
+}
+.info-1{
+    display: flex;
+    width: 100%;
+  text-align: center;
+   /* border: 3px solid blue; */
+}
+.images-11{
+    width: 30%;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.info-22{
+    margin-top: 40px;
+    font-size: 22px;
+}
+.images-33{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.images-44{
+    width: 90%;
+    justify-content: space-evenly;
+    
+}
+.bike{
+    background-image: url(https://shop.ducati.com/media/wysiwyg/MotoGP-2023-WC-Pecco-banner-shop-1330x600.jpg);
+    background-size: 1200px;
+    height: 500px;
+}
+.world{
+    width: 250px;
+    height: 80px;
+    font-size: 18px;
+    margin-left: 50px;
+    padding-top: 100px;
+    color: white;
+}
+.button-11{
+    margin-left : 50px;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    margin-top: 200px;
+    height: 60px;
+    width: 200px;
+
+}
+.news{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#email{
+    width: 300px;
+    height: 50px;
+}
+#password{
+    width: 300px;
+    height: 50px;
+}
+.box{
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    width: 800px;
+    margin-left: 150px;
+}
+.box-1{
+    width: 200px;
+}
+.button-22{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    margin-left: 550px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
