@@ -1,0 +1,151 @@
+#bar{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+#title{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height:100% ;
+}
+#navbar{
+    margin-top: 10px;
+    display: flex;
+    /* border: 2PX solid red; */
+    
+}
+
+#navbar-1{
+       margin-top: 35px;
+       justify-content: space-between;
+       display: flex;
+       margin-left: 150px;
+       /* border: 2px solid yellow; */
+       width: 700px;
+       
+}
+.image-1{
+  width: 100%;
+  height: 500px;
+  background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/running_ss24_supernova_global_launch_m_glp_masthead_d_a278d529da.jpg) ;
+border: 2px solid black;
+background-size: 100%;
+}
+#image-2{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/em_in_yougotthis_brand_ss24_mglp_mh_d_f6a4a1e395.jpg) ;
+  border: 2px solid black;
+  background-size: 100%;
+  }
+  
+  .edit-1{
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 300px;
+    margin-left: 80PX;
+  }
+  .edit-2{
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 80PX;
+  }
+  .button-1{
+          font-size: 25px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          margin-top: 20px;
+          margin-left: 80PX;
+  }
+  .button-2{
+    font-size: 25px;
+    
+  }
+  .edit-3{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40px;
+    margin-top: 80px;
+  }
+  .edit-4{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 40px;
+    text-decoration: underline;
+    /* border: 2px solid yellow; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .button-3{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    height: 40px;
+
+    
+  }
+  .button-4{
+    font-size: 20px;
+    margin-top: 70px;
+    height: 40px;
+
+    }
+
+  .multi-image{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  }
+
+.image-4{
+  height: 95%;
+  width: 95%;
+}
+.edit-5{
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.edit-6{
+  margin-top: 10px;
+}
+.button-5{
+  margin-top: 10px;
+  border: white;
+  text-decoration: underline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+
+}
+.image-5{
+  height: 90%;
+  width: 80%;
+}
+.banner{
+  background-color: yellow;
+  height: 100px;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+}
+.edit-7{
+  margin-top: 45px;
+  margin-left: 250px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+}
+.button-6{
+  height: 60px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+}
