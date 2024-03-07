@@ -1,0 +1,130 @@
+#bar{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+#title{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height:100%;
+}
+
+#navbar{
+    margin-top: 10px;
+    display: flex;
+    /* border: 2PX solid red; */
+    
+}
+
+#navbar-1{
+       margin-top: 35px;
+       justify-content: space-between;
+       display: flex;
+       margin-left: 150px;
+       /* border: 2px solid yellow; */
+       width: 700px;
+}
+.image-1{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/running_ss24_supernova_global_launch_w_glp_masthead_d_00b4e82c1f.jpg) ;
+  border: 2px solid black;
+  background-size: 100%;
+  }
+  .edit-1{
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 300px;
+    margin-left: 80PX;
+  }
+  .edit-2{
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 80PX;
+  }
+  .button-1{
+          font-size: 25px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          margin-top: 20px;
+          margin-left: 80PX;
+  }
+  .button-2{
+    font-size: 25px;
+    
+  }
+
+
+  .multi-image{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    }
+  
+  .image-4{
+    height: 95%;
+    width: 50%;
+  
+  }
+  .edit-5{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .box{
+    margin-top: 100px;
+  }
+  .image-4-1{
+    height: 300px;
+    width: 250px;
+  
+  }
+  .edit-5-1{
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .text-2{
+    width: 700px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 300px;
+
+  }
+  .banner{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+  }
+  .edit-7{
+    margin-top: 45px;
+    margin-left: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+  }
+  .button-6{
+    height: 60px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+  }
+
+
+
